@@ -1,5 +1,7 @@
 from src.services.training_service import TrainingService
 from src.models.cnn_model import create_model
+from src.utils.logger import info
+
 
 service = TrainingService("data/processed")
 train_gen, val_gen = service.get_data_generators()
@@ -14,4 +16,4 @@ model.fit(
 
 model.save("models/classification_model.h5")
 
-print("Model eğitildi ve kaydedildi ✅")
+info("Model eğitildi ve kaydedildi ")
