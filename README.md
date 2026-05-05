@@ -147,35 +147,33 @@ Model Performansı
 
 ---
 
-##Kullanılan Teknolojiler:
-    Python
-    TensorFlow / Keras
-    OpenCV
-    NumPy
-    Scikit-learn
-    Tkinter (UI)
+## Kullanılan Teknolojiler:
+  Python
+  TensorFlow / Keras
+  OpenCV
+  NumPy
+  Scikit-learn
+  Tkinter (UI)
 
 --- 
 
-##Geliştirme Süreci
+## Geliştirme Süreci
 
-    Proje geliştirilirken şu adımlar izlenmiştir:
+  Proje geliştirilirken şu adımlar izlenmiştir:
 
-        Veri toplama ve sınıflandırma
-        Basit CNN modeli ile başlangıç
-        Hash tabanlı kimlik sistemi denemesi (başarısız)
-        Embedding + cosine similarity sistemine geçiş
-        Multi-agent mimari tasarımı
-        Sistem optimizasyonu ve modüler yapı
+  * Veri toplama ve sınıflandırma
+  * Basit CNN modeli ile başlangıç
+  * Hash tabanlı kimlik sistemi denemesi (başarısız)
+  * Embedding + cosine similarity sistemine geçiş
+  * Multi-agent mimari tasarımı
+  * Sistem optimizasyonu ve modüler yapı
     
-    Sonuç
+    Sonuç; Bu proje ile:
 
-        Bu proje ile:
-
-            Görüntü tabanlı tür sınıflandırma yapılabilmiştir
-            Kaplumbağa birey tanıma sistemi geliştirilmiştir
-            Multi-agent yapay zeka mimarisi uygulanmıştır
-            Modüler ve genişletilebilir bir sistem oluşturulmuştur
+    * Görüntü tabanlı tür sınıflandırma yapılabilmiştir
+    * Kaplumbağa birey tanıma sistemi geliştirilmiştir
+    * Multi-agent yapay zeka mimarisi uygulanmıştır
+    * Modüler ve genişletilebilir bir sistem oluşturulmuştur
 
 
 Not: Bu proje eğitim amaçlı geliştirilmiştir ve gerçek dünya uygulamalarına genişletilebilir bir altyapı sunmaktadır.
