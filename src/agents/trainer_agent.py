@@ -6,7 +6,7 @@ class TrainerAgent:
         self.data_path = data_path
 
     def train(self):
-        print("🧠 Eğitim başlıyor...")
+        print(" Eğitim başlıyor...")
 
         service = TrainingService(self.data_path)
         train_gen, val_gen = service.get_data_generators()

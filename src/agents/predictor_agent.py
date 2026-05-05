@@ -6,7 +6,7 @@ class PredictorAgent:
     def __init__(self, model_path):
         self.predictor = PredictionService(model_path)
 
-        # ❗ SADECE HASH SİSTEMİ
+        # SADECE HASH SİSTEMİ
         self.identity = IdentityService("data/database")
 
     def run(self, image_path):

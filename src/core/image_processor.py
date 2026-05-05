@@ -6,7 +6,7 @@ class ImageProcessor:
     def __init__(self, size=(224, 224)):
         self.size = size
 
-    # 🔥 TÜRKÇE KARAKTER DESTEKLİ OKUMA
+    #TÜRKÇE KARAKTER  OKUMA
     def load_image(self, path):
         try:
             with open(path, "rb") as f:
@@ -33,7 +33,7 @@ class ImageProcessor:
         image = self.normalize(image)
         return image
 
-    # 🔥 TÜM GÖRSELLERİ İŞLE
+    # TÜM GÖRSELLERİ İŞLE
     def process_all_images(self, input_dir, output_dir):
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -56,7 +56,7 @@ class ImageProcessor:
 
                 image = self.resize(image)
 
-                # 🔥 GÜVENLİ KAYDETME (encoding sorunu yok)
+                #GÜVENLİ KAYDETME (encoding sorunu yok)
                 success, encoded_img = cv2.imencode(".jpg", image)
                 if success:
                     with open(output_path, "wb") as f:

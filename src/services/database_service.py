@@ -16,7 +16,7 @@ class DatabaseService:
         for file in os.listdir(database_path):
             path = os.path.join(database_path, file)
 
-            # ❗ sadece dosya al
+            # sadece dosya al
             if not os.path.isfile(path):
                 continue
 

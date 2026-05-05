@@ -18,7 +18,7 @@ class TrainingService:
             brightness_range=[0.8, 1.2]
         )
 
-        # validation → augmentation YOK (çok önemli)
+        # validation → augmentation YOk 
         val_datagen = ImageDataGenerator(
             rescale=1./255,
             validation_split=0.2
