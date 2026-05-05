@@ -131,7 +131,6 @@ hale getirilmiştir.
 
 Gerekli kütüphaneleri yüklemek için:
 
-```bash
 pip install -r requirements.txt
 
 Çalıştırma
@@ -146,8 +145,9 @@ Model Performansı
     Tür sınıflandırma doğruluğu: ~%60+
     Kimlik doğrulama: embedding tabanlı benzerlik sistemi
 
+---
 
-Kullanılan Teknolojiler:
+##Kullanılan Teknolojiler:
     Python
     TensorFlow / Keras
     OpenCV
@@ -155,8 +155,9 @@ Kullanılan Teknolojiler:
     Scikit-learn
     Tkinter (UI)
 
+--- 
 
-Geliştirme Süreci
+##Geliştirme Süreci
 
     Proje geliştirilirken şu adımlar izlenmiştir:
 
